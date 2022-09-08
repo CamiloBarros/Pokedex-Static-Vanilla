@@ -1,0 +1,44 @@
+{
+  "pokemones_data" : [
+    {
+      "id": "052",
+      "name": "Meowth",
+      "level": "30",
+      "type": "Normal",
+      "hability": "Day Pay",
+      "height": "0,4m",
+      "weight": "4,2 Kg",
+      "imgUrl" : "./assets/p1.svg"
+    },
+    {
+      "id": "025",
+      "name": "Pikachú",
+      "level": "100",
+      "type": "Electric",
+      "hability": "Static",
+      "height": "0,4m",
+      "weight": "6,0 Kg",
+      "imgUrl" : "./assets/p2.svg"
+    },
+    {
+      "id": "143",
+      "name": "Snorlax",
+      "level": "45",
+      "type": "Normal",
+      "hability": "Thick Fat",
+      "height": "2,1m",
+      "weight": "460,0 Kg",
+      "imgUrl" : "./assets/p3.svg"
+    },
+    {
+      "id": "151",
+      "name": "Mew",
+      "level": "100",
+      "type": "Psychic",
+      "hability": "Synchronize",
+      "height": "0,4m",
+      "weight": "4,0 Kg",
+      "imgUrl" : "./assets/p4.svg"
+    }
+  ]
+}

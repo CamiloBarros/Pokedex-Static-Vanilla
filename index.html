@@ -1,73 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Pokedex</title>
-</head>
-<body>
-  <div class="container">
-    <header class="logo">
-      <img src="./assets/pokeball.png" alt="pokeball" class="logo_pokeball">
-      Pokedex
-    </header>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-icon">
+    <title>Pokedex</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="logo">
+        <img src="./assets/pokeball.png" alt="pokeball" class="logo_pokeball" />
+        POKÉDEX_
+      </header>
 
-    <main class="pokemon">
-
-      <div class="pokemon_name"> 
-        Pikachú 
-      </div>
-      <div class="pokemon_container">
-        <img src="./assets/p3.svg" alt="pikachu_img" class="pokemon_img">
+      <main class="pokemon">
+        
+        <div class="pokemon_container">
+          <div class="pokemon_name">Snorlax</div>
+          <img src="./assets/p3.svg" alt="Snorlax" class="pokemon_img" />
+        </div>
         <div class="pokemon_caract">
           <div class="element">
             <span>NO.</span>
-            <span>001</span>
+            <span>143</span>
           </div>
           <div class="element">
             <span>LEVEL</span>
-            <span>100</span>
+            <span>45</span>
           </div>
           <div class="element">
             <span>TYPE</span>
-            <span>ELECTRO</span>
+            <span>Normal</span>
           </div>
           <div class="element">
             <span>HABILITY</span>
-            <span>THUNDER</span>
+            <span>Thick Fat</span>
           </div>
           <div class="element">
             <span>HEIGHT</span>
-            <span>0.5m</span>
+            <span>2,1m</span>
           </div>
           <div class="element">
             <span>WEIGHT</span>
-            <span>15,5 Kg</span>
+            <span>460,0 Kg</span>
           </div>
         </div>
-      </div>
-    
-    </main>
+      </main>
 
-    <footer>
-      <span>OTHERS</span>
-      <div class="buttons">
-        <div class="button_pokemon">
-          <img src="./assets/p1.svg" alt="pokemon_1" class="button_img">
+      <footer>
+        <span>OTHERS</span>
+        <div class="buttons">
+          <button class="button_pokemon">
+            <img src="./assets/p1.svg" alt="pokemon_1" id="052" class="button_img" />
+          </button>
+          <button class="button_pokemon">
+            <img src="./assets/p2.svg" alt="pokemon_3" id="025" class="button_img" />
+          </button>
+          <button class="button_pokemon">
+            <img src="./assets/p3.svg" alt="pokemon_1" id="143" class="button_img" />
+          </button>
+          <button class="button_pokemon">
+            <img src="./assets/p4.svg" alt="pokemon_3" id="151" class="button_img" />
+          </button>
         </div>
-        <div class="button_pokemon">
-          <img src="./assets/p3.svg" alt="pokemon_3" class="button_img">
-        </div>
-        <div class="button_pokemon">
-          <img src="./assets/p1.svg" alt="pokemon_1" class="button_img">
-        </div>
-        <div class="button_pokemon">
-          <img src="./assets/p3.svg" alt="pokemon_3" class="button_img">
-        </div>
-      </div>
-    </footer>
-  </div>
-</body>
+      </footer>
+    </div>
+
+    <script type="module" src="./app.js"></script>
+  </body>
 </html>
