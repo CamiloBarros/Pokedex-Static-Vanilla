@@ -1,5 +1,10 @@
 import data from "./data.json" assert { type: "json" };
 
+/* 
+  TODO: Refactorizar el codigo y aplicar delegación de evento. 
+*/
+
+
 const { pokemones_data } = data;
 const $carrusel_buttons = document.getElementsByClassName("button_img");
 
